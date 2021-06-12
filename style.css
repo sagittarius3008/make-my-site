@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ec715f;
+  height: 70px;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 70px;
+}
+.container {
+  display: flex;
+}
+.nav {
+  margin: 0;
+}
+li {
+  margin: 0 30px;
+  line-height: 70px;
+  display: inline-block;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.main-visual {
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+}
+
+.mv-title {
+  font-size: 64px;
+  color: #fafafa;
+  padding: 200px 0 10px;
+}
+.mv-text {
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio-contents {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+.box:nth-child(3n) {
+  margin-right: 0px;
+}
+.box:nth-child(n + 4) {
+  margin-top: 10px;
+}
+.contents-box1 {
+  background-image: url(img/sketch.jpg);
+}
+.contents-box2 {
+  background-image: url(img/websuku.png);
+}
+.contents-box3 {
+  background-image: url(img/write.jpg);
+}
+.contents-box4 {
+  background-image: url(img/webcamp.png);
+}
+.contents-box5 {
+  background-image: url(img/talk.jpg);
+}
+.contents-box6 {
+  background-image: url(img/webcamp-mother.png);
+}
+.strength {
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.strength-contents {
+  width: 320px;
+  height: auto;
+}
+.strength-contents:nth-child(2) {
+  margin: 0 10px 0;
+}
+h4 {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px auto;
+}
+.boss-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.photo {
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position: center;
+  margin: 0 auto;
+}
+.container-3 {
+  width: 1024px;
+  margin: 0 auto;
+}
+.container-4 {
+  width: 800px;
+  margin: 0 auto;
+}
+.contact {
+  display: flex;
+}
+.box {
+  margin: 0 auto;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+}
+.SNS-contents {
+  width: 170px;
+}
+.icon2:nth-child(2) {
+  margin: 0 20px 0 20px;
+}
+.info-contents {
+  width: 130px;
+}
+footer {
+  background-color: #ec715f;
+  color: #fafafa;
+  font-size: 16px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+/* 使うものまとめ */
+.padding {
+  padding-bottom: 30px;
+}
+.icon {
+  font-size: 60px;
+}
+.icon2 {
+  font-size: 50px;
+}
+.text-al {
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.img-contain {
+  background-size: cover;
+  background-position: center;
+}
+
+.gray {
+  background-color: #eceff1;
+}
+
+.section {
+  padding: 90px 0;
+}
+.section h2 {
+  font-size: 32px;
+  color: #000000;
+}
+.section h2:after {
+  display: block;
+  content: "";
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 30px auto;
+  background-color: #ec715f;
+}
+.center {
+  text-align: center;
+}
+.half {
+  width: 50%;
+}
+.profile-name {
+  text-align: initial;
+}
+.margin {
+  margin: 0 auto;
+}
