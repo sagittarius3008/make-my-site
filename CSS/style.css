@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container-js {
+  height: 650px;
+}
+/* #target {
+  height: 650px;
+} */
 header {
   background-color: #ec715f;
   height: 70px;
@@ -26,7 +32,9 @@ li {
 .main-visual {
   height: 650px;
   width: 100%;
-  background-image: url(img/mv.png);
+  /* background-image: url(img/mv.png); */
+  /* display: none; */
+  /* JSで表示させるため */
 }
 
 .mv-title {
