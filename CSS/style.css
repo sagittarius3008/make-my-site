@@ -6,9 +6,17 @@
 .container-js {
   height: 650px;
 }
-/* #target {
-  height: 650px;
-} */
+
+.timer {
+  font-size: 25px;
+  width: 17%;
+  /* height: 10%; */
+  margin-left: 80%;
+  margin-top: 6%;
+  color: #fafafa;
+  /* text-align: end; */
+}
+
 header {
   background-color: #ec715f;
   height: 70px;
